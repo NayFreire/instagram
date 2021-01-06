@@ -126,3 +126,51 @@ body{
 .app-download:nth-child(2){
     background-image: url('/img/apple-button.png');
 }
+
+@media(max-width: 1024px){
+    .instagram-wrapper{
+        width: 90%; 
+    }
+}
+
+@media(max-width: 768px){
+    .instagram-wrapper{
+        width: 80%;
+    }
+
+    .instagram-phone img{
+        height: 45rem;
+    }
+}
+
+@media(max-width: 650px){
+    body{
+        background-color: #fff;
+    }
+
+    .group{
+        border: 1px solid transparent;
+    }
+
+    .instagram-wrapper{
+        width: 90%;
+    }
+
+    .instagram-phone{
+        display: none;
+    }
+
+    .instagram-continue{
+        width: 100%;
+    }
+}
+
+@media(max-width: 320px){
+    .download{
+        flex-direction: column;
+    }
+
+    .app-download:nth-child(2){
+        margin-top: 10px;
+    }
+}
